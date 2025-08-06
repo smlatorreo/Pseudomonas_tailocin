@@ -58,4 +58,4 @@ samtools depth -Q 30 -aa $sample.mapped_to_Pseudomonas.dd.bam | awk '{sum += $3}
 A summary of these statistics can be found at this [table](/data/01_Processing_Mapping_VarCalling_Historic_Samples/Coverage_and_Depth_Samples_Pseudomonas.tsv)
 
 ---
-[Main README](/README.md) | [Next - 02. Variant Calling](/02_Variant_Calling.md)
+[Main README](/README.md) | [Next - 02. Historic Authentication](/02_Historic_Authentication.md)
