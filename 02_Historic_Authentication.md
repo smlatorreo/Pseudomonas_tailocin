@@ -27,11 +27,11 @@ MapDamage outputs can be found [here](/data/02_Historic_Authentication/)
 
 ## 2.1. Authentication in the host plant *Arabidopsis thaliana*
 
-![Athaliana auth](/data/02_Historic_Authentication/Athaliana_Auth.png)
+![Athaliana auth](/data/02_Historic_Authentication/mapped_to_Athaliana/Athaliana_Auth.png)
 
 ## 2.2 Authentication in *Pseudomonas* sp.
 
-![Pseudomonas auth](/data/02_Historic_Authentication/Pseudomonas_Auth.png)
+![Pseudomonas auth](/data/02_Historic_Authentication/mapped_to_Pseudomonas/Pseudomonas_Auth.png)
 
 ## 2.3. Deamination at first base in both organisms
 

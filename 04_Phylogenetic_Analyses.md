@@ -49,4 +49,4 @@ java -jar beast.jar -threads 20 Pseudomonas_herbaria.xml
 Each chain was analyzed using *Tracer* from the *BEAST package* and [all chains were combined](/data/04_Phylogenetic_Analyses/BEAST2/Pseudomonas_herbaria.COMBINED.log.gz) using *logcombiner*. Finally, a [Maximum Credibility Tree](/data/04_Phylogenetic_Analyses/BEAST2/Pseudomonas_herbaria.COMBINED.MC.tree) was computed using *treeannotator*.
 
 ---
-[Main README](/README.md) | [Previous - 03. Variant Calling](/02_Variant_Calling.md) |)
+[Main README](/README.md) | [Previous - 03. Variant Calling](/03_Variant_Calling.md) |)
