@@ -9,6 +9,8 @@ Program                  | Location
 *samtools v.1.11*        | (https://github.com/samtools/samtools)
 *sambamba v0.8.0*        | (https://github.com/biod/sambamba)
 
+Short reads were mapped both to *Arabidopsis thaliana* and *Pseudomonas* sp. reference genomes. We describe the pipeline used for th bacterial genome in detail. However, same steps and parameters were used to align to the plat genome.  
+
 ## Alignment of short reads to the *Pseudomonas* sp. reference genome
 
 We used a representative strain of the *Pseudomonas* ATUE5 (p25.C2) assembly as the reference genome and indexed it with  *bwa index*.
@@ -56,6 +58,11 @@ samtools coverage -q 30 $sample.mapped_to_Pseudomonas.dd.bam
 samtools depth -Q 30 -aa $sample.mapped_to_Pseudomonas.dd.bam | awk '{sum += $3}END{print sum / NR}'
 ```
 A summary of these statistics can be found at this [table](/data/01_Processing_Mapping_VarCalling_Historic_Samples/Coverage_and_Depth_Samples_Pseudomonas.tsv)
+
+# Proportion of mapped reads
+We summarised the proportion of mapped reads
+![Mapped reads proportions](/data/01_Processing_Mapping/MappedReadsProps.png)
+
 
 ---
 [Main README](/README.md) | [Next - 02. Historic Authentication](/02_Historic_Authentication.md)
