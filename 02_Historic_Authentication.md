@@ -25,15 +25,15 @@ mapDamage -i ${mapped_reads} -r ${ref_genome} --merge-reference-sequences -y 0.1
 
 MapDamage outputs can be found [here](/data/02_Historic_Authentication/)
 
-## Historic signatures in the host plant *Arabidopsis thaliana*
+## 2.1. Authentication in the host plant *Arabidopsis thaliana*
 
 ![Athaliana auth](/data/02_Historic_Authentication/Athaliana_Auth.png)
 
-## Historic signatures in *Pseudomonas* sp.
+## 2.2 Authentication in *Pseudomonas* sp.
 
 ![Pseudomonas auth](/data/02_Historic_Authentication/Pseudomonas_Auth.png)
 
-## Deamination at first base in both organisms
+## 2.3. Deamination at first base in both organisms
 
 ![Ath Pseudomonas Deam1Base](/data/02_Historic_Authentication/Athaliana_Pseudomonas_Deam1stbase.png)
 
